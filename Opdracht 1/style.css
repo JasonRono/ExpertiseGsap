@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.textBox {
+  text-align: center;
+  border: 3px solid green;
+  width: 20rem;
+  margin-bottom: 2rem;
+}
+
+img {
+  width: 50vw;
+  height: 40vh;
+  margin-bottom: 2rem;
+  box-shadow: 10px 10px 5px black;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  border: 3px solid red;
+  width: 20rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+}
