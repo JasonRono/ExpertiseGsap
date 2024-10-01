@@ -4,6 +4,7 @@ function animateMain() {
         .from("div", {y: 500, stagger: 0.5, duration: 3.5, ease: "back"})
         .add(extraAnimate()); 
     return main_tl;
+
 }
 
 function extraAnimate() {
@@ -32,4 +33,5 @@ function extraAnimate() {
 }
 
 
-animateMain();
+
+document.getElementById('startAnimate').addEventListener('click', animateMain());
