@@ -1,0 +1,62 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  margin-top: 20rem;
+}
+
+.contentProgress {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.contentText {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.contentProgress div {
+  width: 3rem;
+  height: 1rem;
+}
+
+.contentText {
+  text-align: center;
+  font-size: large;
+}
+
+.koolhyDraten {
+  transform: scaleY(0);
+  transform-origin: 50% 100%;
+  background-color: red;
+}
+
+.sugar {
+  background-color: blue;
+  transform: scaleY(0);
+  transform-origin: 50% 100%;
+}
+
+.vetten {
+  background-color: gray;
+  transform: scaleY(0);
+  transform-origin: 50% 100%;
+}
+
+.egg {
+  background-color: green;
+  transform: scaleY(0);
+  transform-origin: 50% 100%;
+}
