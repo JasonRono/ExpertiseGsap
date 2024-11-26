@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gsap opdracht</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <section class="calorieContainer"><!-- Section waarin de calorieen content in komt te staan. -->
+            <h1>Calorie tracker</h1>
+            <!-- In deze div komen de resultaten -->
+            <div class="calorieResult">
+                <div>
+                    <div class="barResult one"></div> <!-- Hier komt de animatie in -->
+                    <h3>Koolhydraten:</h3><!-- Hier komt de tekst in -->
+                    <p>20%</p><!-- Hier komt de waarde in -->
+                </div>
+
+                <div>
+                    <div class="barResult two"></div> <!-- Hier komt de animatie in -->
+                    <h3>Eiwitten:</h3>
+                    <p>500%</p>
+                </div>
+
+                <div>
+                    <div class="barResult three"></div> <!-- Hier komt de animatie in -->
+                    <h3>Vetten:</h3>
+                    <p>40%</p>
+                </div>
+
+                <div>
+                    <div class="barResult four"></div> <!-- Hier komt de animatie in -->
+                    <h3>Alcohol:</h3>
+                    <p>30%</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="stepTrackerContainer">
+            <div class="stepResult">
+                <div class="day">
+                    <h3>Maandag:</h3>
+                    <p>5000 stappen</p>
+                    <div class="stepBar" style="height: 40px;"></div>
+                </div>
+                <div class="day">
+                    <h3>Dinsdag:</h3>
+                    <p>7000 stappen</p>
+                    <div class="stepBar" style="height: 40px;"></div>
+                </div>
+                <div class="day">
+                    <h3>Woensdag:</h3>
+                    <p>8000 stappen</p>
+                    <div class="stepBar" style="height: 40px;"></div>
+                </div>
+                <div class="day">
+                    <h3>Donderdag:</h3>
+                    <p>6000 stappen</p>
+                    <div class="stepBar" style="height: 40px;"></div>
+                </div>
+                <div class="day">
+                    <h3>Vrijdag:</h3>
+                    <p>9000 stappen</p>
+                    <div class="stepBar" style="height: 40px;"></div>
+                </div>
+                <div class="day">
+                    <h3>Zaterdag:</h3>
+                    <p>10000 stappen</p>
+                    <div class="stepBar" style="height: 40px;"></div>
+                </div>
+                <div class="day">
+                    <h3>Zondag:</h3>
+                    <p>4000 stappen</p>
+                    <div class="stepBar" style="height: 40px;"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="weightTrackerContainer">
+            <div class="weightTracker">
+                <canvas id="weightChart"></canvas>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
