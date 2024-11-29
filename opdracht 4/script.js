@@ -18,12 +18,12 @@ document.addEventListener('DOMContentLoaded', function () {
     // Maak de grafiek met Chart.js
     const ctx = document.getElementById('weightChart').getContext('2d');
     const weightChart = new Chart(ctx, {
-        type: 'line', // Kies het type grafiek, bijvoorbeeld 'line', 'bar', etc.
+        type: 'line',
         data: {
             labels: ['Maandag', 'Dinsdag', 'Woensdag', 'Donderdag', 'Vrijdag', 'Zaterdag', 'Zondag'], // Labels voor de x-as
             datasets: [{
                 label: 'Gewicht',
-                data: [70, 71, 69, 68, 70, 72, 71], // Voorbeeldgegevens voor de y-as
+                data: [70, 71, 69, 68, 70, 72, 71],
                 backgroundColor: 'rgba(75, 192, 192, 0.2)',
                 borderColor: 'rgba(75, 192, 192, 1)',
                 borderWidth: 1
@@ -48,3 +48,13 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
+const healthData = [
+    healthDatas = {
+        name: 'Gewicht tip',
+        tips: ['Drink voldoende water', 'Eet gezond', 'Beweeg voldoende'],
+
+        name: 'Calorie tip',
+
+    }
+];
